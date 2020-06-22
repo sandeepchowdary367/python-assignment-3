@@ -1,0 +1,63 @@
+Take two inputs from user and check whether they are equal or not.
+In [2]:
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+if a==b:
+    print("equal")
+else:
+    print("notequal")
+enter a value3
+enter b value2
+notequal
+Take 3 inputs from user and check :
+ all are equal
+ any of two are equal
+ ( use and or )
+In [9]:
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+c=int(input("enter c value"))
+all = a == b and b == c and c == a
+print ("All are equal:",all)
+any = a == b or b == c or c== a
+print ("Any of three are equal:",any)
+enter a value5
+enter b value4
+enter c value5
+All are equal: False
+Any of three are equal: True
+Take two number and check whether the sum is greater than 5, less than 5 or equal to 5.
+In [10]:
+a=int(input("enter a value"))
+b=int(input("enter b value"))
+sum=a+b
+print("sum is greater than 5 ",sum>5)
+print("sum is lesser than 5",sum<5)
+print("sum is equal to 5",sum==5)
+enter a value3
+enter b value4
+sum is greater than 5  True
+sum is lesser than 5 False
+sum is equal to 5 False
+Suppose passing marks of a subject is 35. Take input of marks from user and check whether it is greater than passing marks or not.
+In [13]:
+passingmarks=35
+studentmarks=int(input("enter student marks"))
+print("if marks is greater than passing marks",studentmarks>passingmarks)
+enter student marks85
+if marks is greater than passing marks True
+Write a Python function to find the Max of three numbers
+In [15]:
+a=int(input("enter a:"))
+b=int(input("enter b:"))
+c=int(input("enter c:"))
+if (a>=b) and (a>=c):
+    print("a is max of three numbers")
+elif (b>=a) and (b>=c):
+    print("b is max of three numbers")
+else:
+    print("c is max of three numbers")
+enter a:4
+enter b:6
+enter c:7
+c is max of three numbers
